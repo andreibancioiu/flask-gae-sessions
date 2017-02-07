@@ -1,0 +1,15 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /static
+  static_dir: myapp/static
+
+- url: /.*
+  script: myapp.app
+
+automatic_scaling:
+   max_concurrent_requests: 40
+   max_idle_instances: 1
+   min_idle_instances: 1
