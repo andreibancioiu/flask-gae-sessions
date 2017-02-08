@@ -13,3 +13,21 @@
   cd tests
   python runner.py ~/google-cloud-sdk
   ```
+
+4. Start development server
+
+  ```
+  ./start.sh
+  ```
+
+  Then browse `http://localhost:8080`.
+
+5. Deploy to GAE
+
+  ```
+  gcloud app deploy app.yaml --project flask-gae-sessions --verbosity=info
+  ```
+
+  ## Screenshot
+
+  ![Screenshot](screenshot.png)
