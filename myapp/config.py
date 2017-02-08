@@ -8,4 +8,4 @@ SECRET_KEY = "<development>"
 
 if not is_development:
     DEBUG = False
-    SECRET_KEY = mysecrets.SECRET_KEY
+    SECRET_KEY = secrets.SECRET_KEY
