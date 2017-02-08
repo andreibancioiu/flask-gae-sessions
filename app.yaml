@@ -8,6 +8,7 @@ handlers:
 
 - url: /.*
   script: myapp.app
+  login: admin
 
 automatic_scaling:
    max_concurrent_requests: 40
