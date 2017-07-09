@@ -28,6 +28,15 @@
   gcloud app deploy app.yaml --project flask-gae-sessions --verbosity=info
   ```
 
-  ## Screenshot
+## Screenshot
 
-  ![Screenshot](screenshot.png)
+![Screenshot](screenshot.png)
+
+
+## Documentation
+
+```
+cd docs
+make html
+git subtree push --prefix docs/build/html origin gh-pages
+```

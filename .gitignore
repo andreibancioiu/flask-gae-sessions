@@ -87,3 +87,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+!/docs/build
+/docs/build/doctrees
